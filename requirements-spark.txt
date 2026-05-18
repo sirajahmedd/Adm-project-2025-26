@@ -1,0 +1,3 @@
+pyspark==3.5.1
+# GraphFrames is usually installed via Spark packages at runtime, not pip.
+

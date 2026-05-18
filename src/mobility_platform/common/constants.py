@@ -1,0 +1,2 @@
+EVENT_TYPES = ("GPS", "ERROR", "BATTERY", "DELAY")
+

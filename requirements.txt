@@ -1,0 +1,8 @@
+faker==24.11.0
+# Use versions with Python 3.13 wheels (avoid source builds)
+numpy==2.1.3
+pandas==2.2.3
+pymongo==4.7.3
+neo4j==5.20.0
+pg8000==1.31.2
+
