@@ -24,7 +24,7 @@
 
 ## 🗺 Project Overview
 
-The **City Mobility Platform** is the data management backend of a short-term shared electric vehicle rental system operating across multiple Italian cities. The project implements and compares three distinct database paradigms — **Relational**, **Document-oriented**, and **Graph** — to manage the platform's core data, evaluate query performance at scale, and reason about schema evolution, partitioning, and replication strategies.
+The **City Mobility Platform** is a data management layer for a city mobility platform (short-term shared electric vehicle rentals). We model users, stations, trips, and trip events (types: GPS, ERROR, BATTERY, DELAY. The same simulated dataset feeds three representations: a relational schema (SQLite), A document schema (MongoDB with embedded trip documents), and a graph schema (Neo4j). We implement the required queries, compare embedding vs referencing, discuss schema evolution for BATTERY events, outline Spark Query 2 on document data and GraphFrames tasks, and analyze partitioning and asynchronous replication. Workload and benchmark results are supported by figures stored under graphs
 
 The system tracks:
 
@@ -294,9 +294,3 @@ All data files use **JSONL format** (one JSON object per line) for portability. 
 | Events | ~20,000 (avg. 2 per trip) |
 
 Data is synthetically generated with realistic timestamps, cost values, and event distributions.
-
----
-
-## 📄 License
-
-This project was developed as an academic assignment for the Advanced Data Management course at Politecnico di Milano (A.Y. 2025/2026). All data is synthetically generated and is intended for educational use only.
