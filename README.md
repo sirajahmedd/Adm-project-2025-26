@@ -1,8 +1,8 @@
 # 🚲 City Mobility Platform — Advanced Data Management Project
 
 > **Course:** Advanced Data Management (A.Y. 2025/2026)  
-> **Institution:** Politecnico di Milano  
-> **Topic:** Multi-paradigm database management for a shared electric vehicle rental system across Italian cities
+> **Institution:** University of Milano-Bicocca
+> **Topic:** Database Management System for a shared electric vehicle rental system 
 
 ---
 
